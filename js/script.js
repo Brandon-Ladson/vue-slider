@@ -16,7 +16,7 @@ var app = new Vue ({
       "img/image2.jpg",
       "img/image3.jpg",
       "img/image4.jpg"
-    ],
+    ]
   },
   methods: {
     nextFoto: function () {
@@ -34,8 +34,4 @@ var app = new Vue ({
       }
     }
   }
-
-
-
-
 });
