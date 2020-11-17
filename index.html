@@ -15,13 +15,13 @@
 
       <div id="app" class="container">
           <div class="slider-wrapper">
-              <div class="prev" >
+              <div @click="prevFoto" class="prev" >
                   <i class="fas fa-angle-left"></i>
               </div>
               <div class="images">
-                  <img src="" alt="">
+                  <img :src="foto[indiceFoto]" alt="">
               </div>
-              <div class="next" >
+              <div @click="nextFoto" class="next" >
                   <i class="fas fa-angle-right"></i>
               </div>
               <div class="nav">
